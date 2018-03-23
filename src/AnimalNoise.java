@@ -1,4 +1,7 @@
-import model.Cat;
+package src;
+
+import src.model.Cat;
+import src.model.TrappedZooKeeper;
 
 public class AnimalNoise {
 
@@ -6,6 +9,9 @@ public class AnimalNoise {
 		// TODO Auto-generated method stub
 		Cat fluffy = new Cat();
 		System.out.println(fluffy.speak());
+		
+		TrappedZooKeeper jamantha = new TrappedZooKeeper();
+		System.out.println(jamantha.speak());
 		
 		
 	}
