@@ -1,7 +1,6 @@
-package src;
 
-import src.model.Cat;
-import src.model.TrappedZooKeeper;
+import model.Cat;
+import model.TrappedZooKeeper;
 
 public class AnimalNoise {
 
