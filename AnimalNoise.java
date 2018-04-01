@@ -1,6 +1,4 @@
 
-import javax.print.attribute.standard.MediaSize.NA;
-
 import model.Cat;
 import model.Frog;
 import model.Lion;
