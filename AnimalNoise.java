@@ -2,6 +2,7 @@
 import model.Cat;
 import model.Frog;
 import model.Lion;
+import model.Fox;
 import model.TrappedZooKeeper;
 
 public class AnimalNoise {
@@ -19,6 +20,9 @@ public class AnimalNoise {
 		
 		Lion Nala = new Lion();
 		System.out.println(Nala.speak());
+		
+		Fox alexander = new Fox();
+		System.out.println(alexander.speak());
 	}
 
 }
