@@ -1,4 +1,5 @@
 
+import model.Bird;
 import model.Cat;
 import model.Frog;
 import model.Lion;
@@ -18,24 +19,16 @@ public class AnimalNoise {
 		Frog slimey = new Frog();
 		System.out.println(slimey.speak());
 		
+		Bird Pabu = new Bird();
+		System.out.println(Pabu.speak());
+		
 		Lion Nala = new Lion();
 		System.out.println(Nala.speak());
 		
 		Fox alexander = new Fox();
 		System.out.println(alexander.speak());
 		
-		System.out.println("\nThe sentence, 'Nala is in a pack', is "+ Nala.getPackStatus() );
-		System.out.println("Nala has "+ Nala.getSiblingNumber() +", siblings");
-		System.out.println("Nala weights "+ Nala.getWeight()+ ", lbs." );
-		
-		Lion Tamala = new Lion();
-		Tamala.setPackStatus(false);
-		Tamala.setSiblingNumber(15);
-		Tamala.setWeight(310);
-		
-		System.out.println("\nThe sentence, 'Tamala is in a pack', is "+ Tamala.getPackStatus() );
-		System.out.println("Tamala has "+ Tamala.getSiblingNumber() +", siblings");
-		System.out.println("Tamala weights "+ Tamala.getWeight()+ ", lbs." );
+	
 	}
 
 }
