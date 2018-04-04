@@ -4,6 +4,7 @@ import model.Frog;
 import model.Lion;
 import model.Fox;
 import model.TrappedZooKeeper;
+import model.Goat;
 
 public class AnimalNoise {
 
@@ -36,6 +37,10 @@ public class AnimalNoise {
 		System.out.println("\nThe sentence, 'Tamala is in a pack', is "+ Tamala.getPackStatus() );
 		System.out.println("Tamala has "+ Tamala.getSiblingNumber() +", siblings");
 		System.out.println("Tamala weights "+ Tamala.getWeight()+ ", lbs." );
+		
+		Goat Phil = new Goat();
+		System.out.println(Phil.speak());
+		
 	}
 
 }
