@@ -32,6 +32,9 @@ public class AnimalNoise {
 		Goat Phil = new Goat();
 		System.out.println(Phil.speak());
 		
+		Dog Zoe = new Dog();
+		System.out.println(Zoe.speak());
+		
 	}
 
 }
