@@ -36,6 +36,10 @@ public class AnimalNoise {
 		System.out.println("\nThe sentence, 'Tamala is in a pack', is "+ Tamala.getPackStatus() );
 		System.out.println("Tamala has "+ Tamala.getSiblingNumber() +", siblings");
 		System.out.println("Tamala weights "+ Tamala.getWeight()+ ", lbs." );
+		
+		Dog Zoe = new Dog();
+		System.out.println(Zoe.speak());
+		
 	}
 
 }
